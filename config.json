@@ -1,0 +1,7 @@
+{
+    "threads": 100,
+    "smtp_timeout": 5,
+    "smtp_verify": false,
+    "debug": false,
+    "auto_open_folder": false
+}
