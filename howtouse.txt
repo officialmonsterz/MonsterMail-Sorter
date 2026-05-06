@@ -1,0 +1,123 @@
+========================================
+ MONSTERMAIL SORTER - HOW TO USE
+========================================
+
+1. INSTALL PYTHON
+----------------------------------------
+Download and install Python 3.10+
+
+https://python.org
+
+IMPORTANT:
+Enable:
+[✓] Add Python to PATH
+
+during installation.
+
+========================================
+
+2. INSTALL REQUIRED MODULES
+----------------------------------------
+
+Open CMD or Terminal inside the project folder:
+
+pip install -r requirements.txt
+
+========================================
+
+3. PREPARE EMAIL LIST
+----------------------------------------
+
+Create a text file like:
+
+emails.txt
+
+Example:
+
+john@gmail.com
+admin@company.com
+test@yahoo.com
+
+One email per line.
+
+========================================
+
+4. START THE TOOL
+----------------------------------------
+
+Run:
+
+python monstermail.py
+
+========================================
+
+5. SELECT INPUT FILE
+----------------------------------------
+
+When prompted:
+
+Enter .txt file path
+
+Example:
+
+emails.txt
+
+========================================
+
+6. RESULTS
+----------------------------------------
+
+The tool automatically creates an output folder:
+
+monstermail_sorter_YYYYMMDD_HHMMSS
+
+Inside you will find:
+
+- Provider TXT files
+- REPORT.txt
+- full_results.csv
+- process.log
+
+========================================
+
+7. SETTINGS
+----------------------------------------
+
+Inside the tool you can configure:
+
+- Threads
+- SMTP timeout
+- SMTP verification
+
+========================================
+
+8. DNS DEBUG MODE
+----------------------------------------
+
+This mode allows testing:
+
+- MX records
+- DNS resolution
+- Mail provider detection
+
+Useful for troubleshooting domains.
+
+========================================
+
+9. NOTES
+----------------------------------------
+
+- SMTP verification may fail on some ISPs
+- Some servers block verification attempts
+- DNS classification is usually more reliable
+
+========================================
+
+10. EXIT
+----------------------------------------
+
+Press CTRL+C anytime to stop processing.
+
+Partial results will still be saved.
+
+========================================
